@@ -1,19 +1,57 @@
 /********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
 h1 {
-  margin-bottom: 15px;
-  text-align: middle
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 175%;
+  font-family: Arial, sans-serif;
 }
 
-div {
+h2{
+  float: right;
+  width: 30%;
+  margin-top: 0px;
+  font-size: 125%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+#chicken{
+  background-color: #CC0000;
+}
+#beef{
+  background-color: #0088FF;
+}
+#sushi{
+  background-color: #00CC00;
+}
+.row {
+  width: 100%;
+}
+
+.col-lg-4,.col-md-6, .col-md-12, .col-sm-12 {
+    background-color: white;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+section {
+  display: block;
+  border: 1px solid black;
+  width: 90%;
+  height: auto;
   background-color: grey;
 }
-
-
 /********** Desktop only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
     width: 33.3%;
-    background-color: grey;
   }
 }
 
@@ -22,11 +60,9 @@ div {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
     width: 50%;
-    background-color: grey;
   }
   .col-md-12 {
     width: 100%;
-    background-color: grey;
   }
 }
 
@@ -34,6 +70,5 @@ div {
 @media (max-width: 767px) {
   .col-sm-12 {
     width: 100%;
-    background-color: grey;
   }
 }
