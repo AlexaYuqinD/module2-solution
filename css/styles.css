@@ -1,0 +1,39 @@
+/********** Base styles **********/
+h1 {
+  margin-bottom: 15px;
+  text-align: middle
+}
+
+div {
+  background-color: grey;
+}
+
+
+/********** Desktop only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.3%;
+    background-color: grey;
+  }
+}
+
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    background-color: grey;
+  }
+  .col-md-12 {
+    width: 100%;
+    background-color: grey;
+  }
+}
+
+/********** Mobile only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    background-color: grey;
+  }
+}
