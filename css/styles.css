@@ -19,8 +19,8 @@ h2{
   font-family: Arial, sans-serif;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-
 }
+
 #chicken{
   background-color: #CC0000;
 }
@@ -34,6 +34,13 @@ h2{
   width: 100%;
 }
 
+p{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
 .col-lg-4,.col-md-6, .col-md-12, .col-sm-12 {
     background-color: white;
     float: left;
@@ -44,7 +51,7 @@ h2{
 section {
   display: block;
   border: 1px solid black;
-  width: 90%;
+  margin: 10px;
   height: auto;
   background-color: grey;
 }
